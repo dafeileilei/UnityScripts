@@ -9,7 +9,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMoveController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
 	// Inspector
 	[SerializeField] private float m_WalkSpeed = 2.0f;//行走速度
